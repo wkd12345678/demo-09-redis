@@ -15,9 +15,6 @@ class Demo09RedisApplicationTests {
         //没有redis服务器会报错
         redisTemplate.opsForValue().set("ss","ee");
         System.out.println(redisTemplate.opsForValue().get("ss"));
-        System.out.println("one1");
-        System.out.println("two");
-        System.out.println("sss");
 
     }
 
