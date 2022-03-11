@@ -17,6 +17,7 @@ class Demo09RedisApplicationTests {
         System.out.println(redisTemplate.opsForValue().get("ss"));
         System.out.println("one1");
         System.out.println("two");
+        System.out.println("sss");
 
     }
 
