@@ -16,6 +16,7 @@ class Demo09RedisApplicationTests {
         redisTemplate.opsForValue().set("ss","ee");
         System.out.println(redisTemplate.opsForValue().get("ss"));
         System.out.println("two");
+        System.out.println("sss");
 
     }
 
